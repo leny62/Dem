@@ -1,0 +1,80 @@
+#form{
+    margin: 15px 10px;
+}
+
+.box{
+    background-color:rgb(93, 100, 94, 0.8);
+    border-radius: 20px;
+    padding:20px;
+    
+}
+
+input[type=email], input[type=name], input[type=password]{
+    padding: 0.2rem;
+    width: 80%;
+    line-height: 0.8rem;
+}
+#em-err{
+    background-color: saddlebrown;
+    color: red;
+    visibility: hidden;
+}
+.messge{
+    /* background-color: saddlebrown; */
+    color: black;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    visibility: hidden;
+}
+.header1{
+    float: left;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+.input{
+    border-radius: 30px;
+    height: 30px;
+    width: 250px;
+    padding: 0.5rem;
+    border: none;
+}
+.textarea{
+    border-radius: 20px;
+    width: 250px;
+    height: 80px;
+
+}
+.btn{
+    border:  black;
+    margin-left: 80px;
+    height: 30px;
+    width: 100px;
+    background-color: lightgrey;
+    margin-top: 30px;
+}
+ 
+ .login{
+     margin-left: 20px;
+     height: 30px;
+     width: 60px;
+     background-color: lightgrey;
+ }
+ .button{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: lightgrey;
+ }
+ :focus{
+    outline: none;
+}
+@media only screen and (min-width: 600px) {
+    .downFooter{
+    position: relative;
+    bottom: 0;
+    }
+    #footer{
+        position: absolute;
+        padding-bottom: 0%;
+    }
+}    
